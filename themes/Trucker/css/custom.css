@@ -143,3 +143,26 @@
 .modal-dialog-small {
     width: 500px;
 }
+
+.content-frame {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 2px;
+    min-height: 200px;
+}
+
+.tools-list-holder {
+    margin-top: 44px;
+    text-align: center;
+}
+
+.tools-list {
+    width: 100%;
+}
+.tools-list li {
+    margin: 10px;
+}
+.moretoppadd {
+    padding-top: 55px;
+}

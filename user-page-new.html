@@ -102,13 +102,41 @@ var profileHeaderUploaderUrl = '/index.php?r=user/account/bannerImageUpload';
             </div>
         </fieldset>
     </form>
-    <div class="user-info">
-        <img src="themes/Trucker/images/user-img.gif" alt="">
-        <div class="holder">
-            <strong class="user-name">admin admin</strong>
-            <span>System Administrator</span>
-        </div>
-    </div>
+    <ul class="nav user-info">
+        <li class="dropdown account">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <div class="user-title pull-left hidden-xs">
+                                            <strong>Anton Artyomov</strong><br><span class="truncate">GreenPeas</span>
+                                        </div>
+
+                <img id="user-account-image" class="img-rounded" src="uploads/profile_image/3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d.jpg?cacheId=0" height="32" width="32" alt="32x32" data-src="holder.js/32x32" style="width: 32px; height: 32px;">
+
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu pull-right">
+                <li>
+                    <a href="/index.php?r=user/profile&amp;uguid=3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d"><i class="fa fa-user"></i> My profile                    </a>
+                </li>
+                <li>
+                    <a href="/index.php?r=user/account/edit"><i class="fa fa-edit"></i> Account settings                    </a>
+                </li>
+
+                                    <li class="divider"></li>
+                    <li>
+                        <a href="/index.php?r=admin/index"><i class="fa fa-cogs"></i> Administration                        </a>
+                    </li>
+                
+
+                <!-- if the current user has admin rights -->
+                
+
+                                    <li class="divider"></li>
+                    <li>
+                        <a href="/index.php?r=user/auth/logout"><i class="fa fa-sign-out"></i> Logout                        </a>
+                    </li>
+                            </ul>
+        </li>
+    </ul>
 </div>            </header>
             <div class="middle">
                                     <div class="middle">
