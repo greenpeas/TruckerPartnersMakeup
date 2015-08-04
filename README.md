@@ -1,2 +1,0 @@
-# TruckerPartnersMakeup
-Trucker Partners Makeup

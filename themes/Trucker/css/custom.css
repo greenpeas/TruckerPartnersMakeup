@@ -1,0 +1,145 @@
+.weather-box {
+    padding: 10px 20px 0;
+}
+.gradient-box-holder .gradient-box .text-holder {
+    padding: 20px 0 0;
+}
+
+.gmap {
+    height: 300px;
+    padding: 0;
+}
+
+.mapcenter{
+    position: fixed;
+    z-index: 2000;
+    top: 50%;
+    left: 50%;
+
+    width: 1000px;
+    height: 590px;
+    margin: -270px 0 0 -500px;
+    padding: 0;
+
+    border: 2px solid #000;
+    background-color: #fff;
+    -webkit-box-shadow: 7px 7px 25px 0 rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 7px 7px 25px 0 rgba(50, 50, 50, 0.75);
+    box-shadow: 7px 7px 25px 0 rgba(50, 50, 50, 0.75);
+}
+
+#colmap
+{
+    height: 16px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1200;
+    top: 5px;
+    right: 108px;
+    display: inline-block;
+    padding: 0 3px;
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 1px 1px 1px 0 rgba(50, 50, 50, 0.3);
+    box-shadow: 1px 1px 1px 0 rgba(50, 50, 50, 0.3);
+}
+#colmap:hover
+{
+    background-color: #dbdbdb;
+}
+
+#colmap a
+{
+    line-height: 17px;
+    text-decoration:none;
+    display: inline-block;
+}
+#colmap:hover a
+{
+    color: #000 !important;
+}
+
+.main-banner-box {
+    overflow: hidden;
+}
+.panel-profile .panel-profile-header .profile-user-photo-container
+{
+    position: absolute;
+    bottom: -50px;
+    left: 15px;
+}
+.panel-profile .panel-profile-header .profile-user-photo-container .profile-user-photo
+{
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+.panel-profile .panel-profile-controls
+{
+    padding-left: 160px;
+}
+
+.image-upload-container
+{
+    position: relative;
+}
+.image-upload-container .image-upload-buttons
+{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+    display: none;
+}
+.image-upload-container input[type='file']
+{
+    position: absolute;
+
+    opacity: 0;
+}
+.image-upload-container .image-upload-loader
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+
+    background: #f8f8f8;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1040;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    border: none;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+}
+.modal-dialog.fadeIn, .modal-dialog.pulse {
+    -webkit-animation-duration: 200ms;
+    -moz-animation-duration: 200ms;
+    animation-duration: 200ms;
+}
+.modal-dialog {
+    margin-top: 10%;
+}
+.modal-dialog-small {
+    width: 500px;
+}
