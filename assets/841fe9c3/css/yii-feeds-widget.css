@@ -59,7 +59,7 @@
 
 .rss-news .yii-feed-widget-item {
     float: left;
-    width: 49%;
+    width: 46%;
     display: inline-block;
     background: #fff;
     padding: 10px;
@@ -126,7 +126,7 @@
     margin: 0;
 }
 .rss-news .yii-feed-widget-item-right p {
-    height: 10%;
+    height: 21%;
     font-size: 12px;
     font-style: italic;
     /*margin-top: 4px;*/

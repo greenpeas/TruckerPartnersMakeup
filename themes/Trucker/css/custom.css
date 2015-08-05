@@ -148,7 +148,7 @@
     margin-bottom: 20px;
     border-radius: 4px;
     background: #fff;
-    padding: 2px;
+    /*padding: 2px;*/
     min-height: 200px;
 }
 
@@ -163,6 +163,12 @@
 .tools-list li {
     margin: 10px;
 }
-.moretoppadd {
-    padding-top: 55px;
+.left-dop-menu {
+    margin: 20px 0;
+}
+.left-dop-menu ul{
+    text-align: left;
+}
+.left-dop-menu .gradient-box{
+    padding: 42px 0 11px 15px;
 }
