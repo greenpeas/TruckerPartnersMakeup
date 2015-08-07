@@ -4620,3 +4620,84 @@ select {
     padding: 10px;
     width: 100%;
 }
+.media, .media-body {
+    overflow: visible;
+}
+.atwho-input.form-control {
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+.message-box form {
+    position: relative;
+
+}
+.message-box form .fileinput-button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+.atwho-input.form-control {
+    padding-right: 48px !important;
+    min-height: 40px !important;
+}
+.message-box:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+#header .user-info:after {
+    display: none;
+}
+#header .nav > li > a {
+    padding: 0;
+    text-decoration: none;
+}
+#header .nav .hidden-xs {
+    margin: 0 10px 0 0;
+}
+#header .nav .caret {
+    position: relative;
+    bottom: 10px;
+}
+#header .nav #user-account-image {
+    width: 26px !important;
+    height: 26px !important;
+}
+#header .user-info {
+    padding: 2px 5px;
+}
+.nav-tabs {
+    margin: 0 0 10px;
+}
+.dropdown-menu {
+    background: #545556;
+}
+.dropdown-menu .divider {
+    background-color: #cfa95e;
+}
+.dropdown-menu > li > a {
+    padding: 3px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown-menu > li > a i {
+    margin: 0 10px 0 0;
+}
+.nav-tabs > li > a {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.nav .caret {
+    border-bottom-color: #555555;
+    border-top-color: #555555;
+}
+.media .nav > li > a.dropdown-toggle {
+    padding: 3px 10px;
+    background: #545556;
+    color: #fff;
+}
+.media .nav > li.open > a.dropdown-toggle {
+    background: #7191a8;
+}
