@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en" class="js rgba backgroundsize borderradius boxshadow fontface inlinesvg"><head>
+                <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/2a5e6a63/linklist.css">
+<link rel="stylesheet" type="text/css" href="assets/841fe9c3/css/yii-feeds-widget.css">
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="assets/2a5e6a63/linklist.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+ $.ajaxSetup({
+			data: {"CSRF_TOKEN": "7bfa051f9f1492c2c17ec466dca54bb4e2b8826d"},
+			cache:false
+			});
+/*]]>*/
+</script>
+<title>Trucker Partners</title>
+        <meta name="description" content="">
+
+        <!-- start: CSS -->
+        <link href="css/animate.min.css?ver=0.10.12" rel="stylesheet">
+        <link href="css/bootstrap.min.css?ver=0.10.12" rel="stylesheet">
+        <link href="css/datepicker.css?ver=0.10.12" rel="stylesheet">
+        <link href="resources/font-awesome/css/font-awesome.min.css?ver=0.10.12" rel="stylesheet">
+        <link href="css/bootstrap-wysihtml5.css?ver=0.10.12" rel="stylesheet">
+        <link href="css/flatelements.css?ver=0.10.12" rel="stylesheet">
+        <!-- end: CSS -->
+
+
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,900&amp;subset=cyrillic,latin" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Scada:400italic,400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link href="themes/Trucker/css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
+        <link href="themes/Trucker/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="/ico/favicon.ico">
+        
+        <script type="text/javascript" src="js/bootstrap.min.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="themes/Trucker/js/modernizr-2.8.3.custom.js"></script>
+        <script type="text/javascript" src="themes/Trucker/js/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="themes/Trucker/js/jquery.main.js"></script>
+        <script type="text/javascript" src="js/jquery.autosize.min.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/jquery.ui.widget.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/jquery.fileupload.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/jquery.flatelements.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/jquery.timeago.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/js.cookie-2.0.2.min.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/moment.min.js?ver=0.10.12"></script>
+        <script type="text/javascript" src="js/moment-with-locales.min.js?ver=0.10.12"></script>
+
+        <!-- Global app functions -->
+        <script type="text/javascript" src="js/app.js?ver=0.10.12"></script>
+        <!-- end: JavaScript -->
+
+        <!--[if gte IE 9]>
+        <style type="text/css">
+            .gradient-box-holder, .gradient-box {filter: none;}
+        </style>
+        
+        <![endif]-->
+    <style type="text/css">.fancybox-margin{margin-right:15px;}</style></head>
+    <body><script type="text/javascript">
+/*<![CDATA[*/
+var csrfName = 'CSRF_TOKEN';
+
+var csrfValue = '7bfa051f9f1492c2c17ec466dca54bb4e2b8826d';
+
+var baseUrl = 'http://yiitrucks.local';
+
+var localeId = 'en';
+
+/*]]>*/
+</script>
+
+    <!--[if lt IE 7]><p class=chromeframe>Ваш браузер <em>устарел!</em> <a href="http://browsehappy.com/">Обновите ваш браузер</a> or <a href="http://www.google.com/chromeframe/?redirect=true">установить Google Chrome Frame</a>.</p><![endif]-->
+        <div class="wrapper">
+            <header id="header">
+                <div class="content-holder">
+    <a class="logo" href="/"><img src="themes/Trucker/images/logo-img.png" alt=""></a>
+    <form action="#">
+        <fieldset>
+            <div class="form-row">
+                <input type="text" placeholder="Search">
+                <input type="submit" hidden="hidden" value="Search">
+            </div>
+        </fieldset>
+    </form>
+    <!--    <div class="user-info">
+            <img src="/images/user-img.gif" alt=""/>
+            <div class="holder">
+                <strong class="user-name">admin admin</strong>
+                <span>System Administrator</span>
+            </div>
+        </div>-->
+
+
+    <ul class="nav user-info">
+        <li class="dropdown account">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <div class="user-title pull-left hidden-xs">
+                                            <strong>Anton Artyomov</strong><br><span class="truncate">GreenPeas</span>
+                                        </div>
+
+                <img id="user-account-image" class="img-rounded" src="http://yiitrucks.local/img/default_user.jpg?cacheId=0" height="32" width="32" alt="32x32" data-src="holder.js/32x32" style="width: 32px; height: 32px;">
+
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu pull-right">
+                <li>
+                    <a href="/index.php?r=user/profile&amp;uguid=3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d"><i class="fa fa-user"></i> My profile                    </a>
+                </li>
+                <li>
+                    <a href="/index.php?r=user/account/edit"><i class="fa fa-edit"></i> Account settings                    </a>
+                </li>
+
+                                    <li class="divider"></li>
+                    <li>
+                        <a href="/index.php?r=admin/index"><i class="fa fa-cogs"></i> Administration                        </a>
+                    </li>
+                
+
+                <!-- if the current user has admin rights -->
+                
+
+                                    <li class="divider"></li>
+                    <li>
+                        <a href="/index.php?r=user/auth/logout"><i class="fa fa-sign-out"></i> Logout                        </a>
+                    </li>
+                            </ul>
+        </li>
+    </ul>
+
+
+</div>            </header>
+            <div class="middle">
+                                    <div class="container">
+    <div class="row">
+        <div class="col-md-2">
+                        <div class="gradient-box-holder left-dop-menu">
+    <div class="gradient-box clearfix">
+
+        
+                        
+                            <h2 class="decor-heading"><strong>Account</strong> settings</h2>
+                            
+            <ul>
+                                    <li><a href="/index.php?r=user/account/edit" target="" class=" active ">profile-link<span>Profile</span></a></li>
+                                    <li><a href="/index.php?r=user/account/editSettings" target="" class=" "><i class="fa fa-wrench"></i><span>Settings</span></a></li>
+                                    <li><a href="/index.php?r=user/account/editModules" target="" class=" "><i class="fa fa-rocket"></i><span>Modules</span></a></li>
+                                    <li><a href="/index.php?r=user/account/emailing" target="" class=" "><i class="fa fa-bell"></i><span>Notifications</span></a></li>
+                                    <li><a href="/index.php?r=user/account/changeEmail" target="" class=" "><i class="fa fa-paper-plane"></i><span>E-Mail</span></a></li>
+                                    <li><a href="/index.php?r=user/account/changePassword" target="" class=" "><i class="fa fa-key"></i><span>Password</span></a></li>
+                                    <li><a href="/index.php?r=user/account/delete" target="" class=" "><i class="fa fa-trash-o"></i><span>Delete account</span></a></li>
+                            </ul>
+        
+                            </div>
+</div>
+        </div>
+        <div class="col-md-7">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+    <strong>User</strong> details
+    <!-- show flash message after saving -->
+    <!-- check if flash message exists -->
+
+
+
+
+
+</div>
+<div class="panel-body">
+
+    <div id="profile-form-container" style="">
+        <form id="yw0" action="/index.php?r=user/account/edit/guid/3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d" method="post"><ul id="profile-tabs" class="nav nav-tabs" data-tabs="tabs"><li class="active"><a href="#category-0" data-toggle="tab">General Information</a></li><li><a href="#category-1" data-toggle="tab">Communication</a></li><li><a href="#category-2" data-toggle="tab">Social bookmarks</a></li></ul><div class="tab-content"><div class="tab-pane active" id="category-0"><div class="form-group field_company_name">
+<label for="Profile_company_name" class="required">Company name <span class="required">*</span></label>
+<input class="form-control" name="Profile[company_name]" id="Profile_company_name" type="text" maxlength="100" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">
+
+</div><div class="form-group field_title">
+<label for="Profile_title">Job Title</label>
+<input class="form-control" name="Profile[title]" id="Profile_title" type="text" maxlength="100" value="GreenPeas">
+
+</div><div class="form-group field_ref_scope_id">
+<label for="Profile_ref_scope_id" class="required">Scope <span class="required">*</span></label>
+<select class="form-control" name="Profile[ref_scope_id]" id="Profile_ref_scope_id">
+<option value="">Please select:</option>
+<option value="1">Сфера деятельности 1</option>
+<option value="2">Сфера деятельности 2</option>
+</select>
+
+</div><div class="form-group field_street">
+<label for="Profile_street">Street Address</label>
+<input class="form-control" name="Profile[street]" id="Profile_street" type="text" maxlength="150">
+
+</div><div class="form-group field_state">
+<label for="Profile_state">State/Province</label>
+<select class="form-control" name="Profile[state]" id="Profile_state">
+<option value="">Please select:</option>
+<optgroup label="United States of America">
+<option value="3">Alabama</option>
+<option value="4">Alaska</option>
+<option value="5">Arizona</option>
+<option value="6">Arkansas</option>
+<option value="18">California</option>
+<option value="21">Colorado</option>
+<option value="20">Commonwealth of Kentucky</option>
+<option value="24">Commonwealth of Massachusetts</option>
+<option value="41">Commonwealth of Pennsylvania</option>
+<option value="10">Commonwealth of Virginia</option>
+<option value="22">Connecticut</option>
+<option value="13">Delaware</option>
+<option value="47">Florida</option>
+<option value="14">Georgia</option>
+<option value="12">Hawaii</option>
+<option value="1">Idaho</option>
+<option value="16">Illinois</option>
+<option value="17">Indiana</option>
+<option value="2">Iowa</option>
+<option value="19">Kansas</option>
+<option value="23">Louisiana</option>
+<option value="30">Maine</option>
+<option value="31">Maryland</option>
+<option value="28">Michigan</option>
+<option value="25">Minnesota</option>
+<option value="26">Mississippi</option>
+<option value="27">Missouri</option>
+<option value="29">Montana</option>
+<option value="32">Nebraska</option>
+<option value="33">Nevada</option>
+<option value="34" selected="selected">New Hampshire</option>
+<option value="35">New Jersey</option>
+<option value="37">New Mexico Estado de Nuevo México</option>
+<option value="36">New York</option>
+<option value="44">North Carolina</option>
+<option value="43">North Dakota</option>
+<option value="38">Ohio</option>
+<option value="39">Oklahoma</option>
+<option value="40">Oregon</option>
+<option value="42">Rhode Island and Providence Plantations</option>
+<option value="49">South Carolina</option>
+<option value="48">South Dakota</option>
+<option value="45">Tennessee</option>
+<option value="46">Texas</option>
+<option value="50">Utah</option>
+<option value="9">Vermont</option>
+<option value="8">Washington</option>
+<option value="15">West Virginia</option>
+<option value="11">Wisconsin</option>
+<option value="7">Wyoming</option>
+</optgroup>
+<optgroup label="Canada">
+<option value="56">Alberta</option>
+<option value="55">British Columbia</option>
+<option value="58">Manitoba</option>
+<option value="61">New Brunswick</option>
+<option value="60">Newfoundland and Labrador</option>
+<option value="53">Northwest Territories</option>
+<option value="62">Nova Scotia</option>
+<option value="51">Nunavut</option>
+<option value="54">Ontario</option>
+<option value="63">Prince Edward Island</option>
+<option value="52">Quebec</option>
+<option value="57">Saskatchewan</option>
+<option value="59">Yukon</option>
+</optgroup>
+</select>
+
+</div><div class="form-group field_county">
+<label for="Profile_county">County</label>
+<select class="form-control" name="Profile[county]" id="Profile_county">
+<option value="">Please select:</option>
+<option value="" selected="selected">Sullivan County</option>
+<option value="Belknap County">Belknap County</option><option value="Carroll County">Carroll County</option><option value="Cheshire County">Cheshire County</option><option value="Coos County">Coos County</option><option value="Grafton County">Grafton County</option><option value="Hillsborough County">Hillsborough County</option><option value="Merrimack County">Merrimack County</option><option value="Rockingham County">Rockingham County</option><option value="Strafford County">Strafford County</option><option value="Sullivan County">Sullivan County</option></select>
+
+</div><div class="form-group field_city">
+<label for="Profile_city">Town/City</label>
+<select class="form-control" name="Profile[city]" id="Profile_city">
+<option value="">Please select:</option>
+<option value="5466108">Sambro</option>
+<option value="5464833">Altario</option>
+<option value="5466081">Stirling</option>
+<option value="5467574">Elmira</option>
+<option value="5127022">Marina</option>
+<option value="5467128">Island Harbour Marina</option>
+</select>
+
+</div><div class="form-group field_zip">
+<label for="Profile_zip">Zip/Postal Code</label>
+<input class="form-control" name="Profile[zip]" id="Profile_zip" type="text" maxlength="10">
+
+</div><div class="form-group field_about">
+<label for="Profile_about">About me</label>
+<textarea class="form-control" rows="3" name="Profile[about]" id="Profile_about">Job in Routeam!!!</textarea>
+
+</div></div><div class="tab-pane" id="category-1"><div class="form-group field_phone_work">
+<label for="Profile_phone_work">Phone Work</label>
+<input class="form-control" name="Profile[phone_work]" id="Profile_phone_work" type="text" maxlength="100">
+
+</div><div class="form-group field_fax">
+<label for="Profile_fax">Fax</label>
+<input class="form-control" name="Profile[fax]" id="Profile_fax" type="text" maxlength="100">
+
+</div><div class="form-group field_im_skype">
+<label for="Profile_im_skype">Skype Nickname</label>
+<input class="form-control" name="Profile[im_skype]" id="Profile_im_skype" type="text" maxlength="100" value="artyomov.anton">
+
+</div><div class="form-group field_im_msn">
+<label for="Profile_im_msn">MSN</label>
+<input class="form-control" name="Profile[im_msn]" id="Profile_im_msn" type="text" maxlength="100">
+
+</div><div class="form-group field_im_xmpp">
+<label for="Profile_im_xmpp">XMPP Jabber Address</label>
+<input class="form-control" name="Profile[im_xmpp]" id="Profile_im_xmpp" type="text" maxlength="255" value="greenpeas@qip.ru">
+
+</div></div><div class="tab-pane" id="category-2"><div class="form-group field_url">
+<label for="Profile_url">Url</label>
+<input class="form-control" name="Profile[url]" id="Profile_url" type="text" maxlength="255">
+
+</div><div class="form-group field_url_linkedin">
+<label for="Profile_url_linkedin">LinkedIn URL</label>
+<input class="form-control" name="Profile[url_linkedin]" id="Profile_url_linkedin" type="text" maxlength="255">
+
+</div><div class="form-group field_url_twitter">
+<label for="Profile_url_twitter">Twitter URL</label>
+<input class="form-control" name="Profile[url_twitter]" id="Profile_url_twitter" type="text" maxlength="255">
+
+</div></div></div>
+<div style="display:none"><input type="hidden" value="7bfa051f9f1492c2c17ec466dca54bb4e2b8826d" name="CSRF_TOKEN"></div><div style="visibility:hidden"><input type="hidden" value="1" name="yform_e47e321e" id="yform_e47e321e"></div>
+
+
+
+
+
+<hr><div class="form-group-buttons buttons"><input class="btn btn-primary" name="save" type="submit" value="Save profile">
+</div>
+
+</form>    </div>
+    <div id="profile-loader" class="loader" style="display: none;"></div>
+
+
+</div>
+
+<script type="text/javascript">
+    
+    var countries = {
+        1:'United States of America',2:'Canada'    };
+    $(document).ready(function () {
+        
+        $('#Profile_country').prop( "disabled", true );
+        
+        var region_id = $('#Profile_state option:selected').val();
+        
+        if (region_id) { console.log('region_id alr'); getCounties(region_id); }
+        
+        $('body').on('change','#Profile_county',function(){
+            
+            $('#Profile_city').empty();
+            getCities($('#Profile_county option:selected').val());
+            
+        });
+        
+        $('body').on('change','#Profile_state',function(){
+            
+            $('#Profile_county').empty();
+            $('#Profile_city').empty();
+            getCounties($('#Profile_state option:selected').val());
+            
+            $.ajax({
+                'type': 'GET',
+                'url': '/index.php?r=user/profile/ajxgetcountry',
+                'data': {'id':$(this).val()},
+                'success': function (html) {
+                    $('#Profile_country').val(html);
+                }
+            });
+            
+        });
+        
+        $('body').on('click','input[name="save"]',function(){
+        
+        var business_level = 2        
+            if (business_level > 1) {
+
+            var geocoder = new google.maps.Geocoder();
+            var address = $("#Profile_street").val() + ',' + $("#Profile_city").val() + ',' + $("#Profile_state option:selected").text() + ' ' + $("#Profile_zip").val();
+        
+            geocoder.geocode({ 'address': address}, function(results, status) {
+            
+                if (status == google.maps.GeocoderStatus.OK) {
+                
+                    var lat  = results[0].geometry.location.A;
+                    var long = results[0].geometry.location.F;
+                
+                    $.ajax({
+                        url: '/index.php?r=user/checkin',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { lat: lat, lon: long, APPID: 'd6d0f48b61a0c50f869ac0ad8a6322ed' }
+                    });
+                }
+
+            });
+            
+            }
+        
+        });
+        
+        // save the tab to show
+        var activeTab = 0;
+
+        // add tab content <div>
+        $('#profile-form-container form').prepend('<div class="tab-content"></div>');
+
+        // add clickable tabs
+        $('#profile-form-container form').prepend('<ul id="profile-tabs" class="nav nav-tabs" data-tabs="tabs"></ul>');
+
+        // go through all fieldsets with inputs (categories)
+        $('#profile-form-container form fieldset legend').each(function (index, value) {
+
+            // save current tab index by the first error to activate him later
+            if (checkErrors($(this)) == true && activeTab == 0) {
+                activeTab = index;
+            }
+
+            // save category text
+            var _category = $(this).text();
+
+            // build tab structure
+            var _tab = '<li><a href="#category-' + index + '" data-toggle="tab">' + _category + '</a></li>';
+
+            // add tab structure to tab
+            $('#profile-tabs').append(_tab);
+
+            // build tab content container
+            var _tabContent = '<div class="tab-pane" id="category-' + index + '"></div>';
+
+            // add content to tab content container
+            $('.tab-content').append(_tabContent);
+
+            // clone every inputs from original form
+            var $inputs = $(this).parent().children(".form-group").clone();
+
+            // add cloned inputs to current tab content container
+            $('#category-' + index).html($inputs);
+
+            // remove original inputs from original form
+            $(this).parent().remove();
+
+        })
+
+        // add an <hr> between tab and submit button
+        $('#profile-form-container form .form-group-buttons').before('<hr>');
+
+
+        // check if errorSummary element exists
+        if ($('.errorSummary').length != null) {
+
+            // clone element
+            var _errorSummary = $('.errorSummary').clone();
+
+            // remove original element
+            $('.errorSummary').remove();
+
+            // add cloned element at the top
+            $('#profile-form-container form').prepend(_errorSummary);
+
+        }
+
+        // activate the first tab or the tab with the first error
+        $('#profile-tabs a[href="#category-' + activeTab + '"]').tab('show')
+
+        // hide loader
+        $('#profile-loader').hide();
+
+        // show created tab element
+        $('#profile-form-container').show();
+
+
+    })
+
+
+    /**
+     * Check for errors in a specific category
+     * @param _object
+     * @returns {boolean}
+     */
+    function checkErrors(_object) {
+
+        // save standard result
+        var _error = false;
+
+        // go through every input
+        _object.parent().children(".form-group").each(function (index, value) {
+
+            // if an input have the class "error"
+            if ($(this).children('.form-control').hasClass("error")) {
+
+                // change standard result
+                _error = true;
+
+                // stop loop/function
+                return false;
+            }
+        })
+
+        // return result
+        return _error;
+
+    }
+    
+    function getCounties(region_id){
+        var url = "index.php?r=cities/AjaxGetStateCounties";
+            
+        $.ajax({
+            url: url,
+            data: "id="+region_id,
+            success: function (data) {
+                    
+                $.each(data.items, function (id, value) {
+                        
+                    $('#Profile_county')
+                        .append($('<option></option>')
+                        .attr('value', value.state)
+                        .text(value.state));
+
+                });
+                    
+            },
+            error: function (data) {
+                    
+                console.log('ERROR');
+                    
+            },
+            complete: function (data) {
+                    
+            },
+
+            dataType: "json"
+        });
+    }
+        
+    function getCities(county_name){
+        var url = "index.php?r=cities/AjaxGetStateCities";
+            
+        $.ajax({
+            url: url,
+            data: "county="+county_name,
+            success: function (data) {
+                    
+                $.each(data.items, function (id, value) {
+                        
+                    $('#Profile_city')
+                        .append($('<option></option>')
+                        .attr('value', value.id)
+                        .text(value.name));
+
+                    });
+                    
+            },
+            error: function (data) {
+                    
+                console.log('ERROR');
+                    
+            },
+            complete: function (data) {
+                    
+            },
+
+            dataType: "json"
+        });
+    }
+
+</script>            </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+</div>
+                            </div>
+        </div>
+        <!-- start: Modal (every lightbox will/should use this construct to show content)-->
+        <div class="modal" id="globalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="loader"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Modal -->
+            <footer id="footer">
+<ul>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=3">Privacy policy</a></li>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=2">Terms of use</a></li>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=4">About us</a></li>
+</ul>
+</footer>    
+<script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>
