@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en" class="js rgba backgroundsize borderradius boxshadow fontface inlinesvg"><head>
+        <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script><style type="text/css"></style>
+<script type="text/javascript">
+/*<![CDATA[*/
+ $.ajaxSetup({
+			data: {"CSRF_TOKEN": "929e495b71c98bbf062c6cd3e9eabf2a5a7a28f0"},
+			cache:false
+			});
+/*]]>*/
+</script>
+<title>Trucker Partners</title>
+    <meta name="description" content="">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,900&amp;subset=cyrillic,latin" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Scada:400italic,400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="themes/Trucker/css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="themes/Trucker/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+    <script type="text/javascript" src="themes/Trucker/js/modernizr-2.8.3.custom.js"></script>
+    <script type="text/javascript" src="themes/Trucker/js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="themes/Trucker/js/jquery.main.js"></script>
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+<body><script type="text/javascript">
+/*<![CDATA[*/
+var csrfName = 'CSRF_TOKEN';
+
+var csrfValue = '929e495b71c98bbf062c6cd3e9eabf2a5a7a28f0';
+
+var baseUrl = 'http://yiitrucks.local';
+
+var localeId = 'en';
+
+/*]]>*/
+</script>
+
+<!--[if lt IE 7]><p class=chromeframe>Ваш браузер <em>устарел!</em> <a href="http://browsehappy.com/">Обновите ваш браузер</a> or <a href="http://www.google.com/chromeframe/?redirect=true">установить Google Chrome Frame</a>.</p><![endif]-->
+<div class="wrapper login-holder">
+    <header id="header">
+        <a class="logo" href="#"><img src="themes/Trucker/images/logo-img.png" alt=""></a>
+        <div class="promo-box">
+            <div class="holder">
+                <strong>Welcome to</strong>
+                <h1>Trucker Partners</h1>
+                <p>the first trucker social community</p>
+            </div>
+        </div>
+    </header><!-- .header-->
+    <div class="middle">
+        <div class="log-form-box">
+    <h2 class="log-head">Login</h2>
+    <form id="account-login-form" action="/index.php?r=user/auth/login" method="post">
+<div style="display:none"><input type="hidden" value="929e495b71c98bbf062c6cd3e9eabf2a5a7a28f0" name="CSRF_TOKEN"></div>    <fieldset>
+        <div class="form-row">
+            <input class="form-control" id="login_username" placeholder="E-mail" name="AccountLoginForm[username]" type="text" autocomplete="off" style="cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDiYB84AargAAAa9JREFUOMvNk0FrU0EUhb87bzABiyhiC7XQKCq6CCJF3FhQ7E7BhYL+AhFxHYQwL7xEknUX0kUR3LhRQQsuxAahgkvRIpaiXYmrCiaCILzMcF0khTZ9z0JXnt2ZGb4799wZ+O9UqVQmnHNnN7xz7pxzrpx33mw2zrm7xWJxVUQeAgKIiMyJyIc4jptZADvkUxHZC5SdczdU1YvIGQBV/ZoFkGEfx/GSiEwDX1Q1iMgp4E2SJJdyAdVqddIYs6/X6/2x1paMMa9EJBpUDsA1VV0XkRHv/Y9ms/lxSwvW2nvA7UKhsL1CH/RCpH9Za+08cGs4RLPbqckg/SlVPaSqXREZjaLoOWA2qu4I2KxarbYIzKjqJ2NMGUY4f/Uyh4se7/td+1+rLLSXt4/ROXcTmBnYBvAE4GDpOCf3RwQgAgiWt+1lOhm9nwC8qn6u1+vP+ku/WZi9T5IkPHi5BqS8e/SUTlZ4jUajnqbp6RDCHUC3so9w/cox0rXXtL+nuS+RVqu1khXWxIWLjBNYWnyf/xf+pdLRMQjfWFlnN4ADTI7tge5Pujt8phx1eNxKMnf+AqjSjZJP5cFjAAAAAElFTkSuQmCC); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">                    </div>
+        <div class="form-row">
+            <input class="form-control" id="login_password" placeholder="Password" name="AccountLoginForm[password]" type="password" value="" autocomplete="off" style="cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDiYB84AargAAAa9JREFUOMvNk0FrU0EUhb87bzABiyhiC7XQKCq6CCJF3FhQ7E7BhYL+AhFxHYQwL7xEknUX0kUR3LhRQQsuxAahgkvRIpaiXYmrCiaCILzMcF0khTZ9z0JXnt2ZGb4799wZ+O9UqVQmnHNnN7xz7pxzrpx33mw2zrm7xWJxVUQeAgKIiMyJyIc4jptZADvkUxHZC5SdczdU1YvIGQBV/ZoFkGEfx/GSiEwDX1Q1iMgp4E2SJJdyAdVqddIYs6/X6/2x1paMMa9EJBpUDsA1VV0XkRHv/Y9ms/lxSwvW2nvA7UKhsL1CH/RCpH9Za+08cGs4RLPbqckg/SlVPaSqXREZjaLoOWA2qu4I2KxarbYIzKjqJ2NMGUY4f/Uyh4se7/td+1+rLLSXt4/ROXcTmBnYBvAE4GDpOCf3RwQgAgiWt+1lOhm9nwC8qn6u1+vP+ku/WZi9T5IkPHi5BqS8e/SUTlZ4jUajnqbp6RDCHUC3so9w/cox0rXXtL+nuS+RVqu1khXWxIWLjBNYWnyf/xf+pdLRMQjfWFlnN4ADTI7tge5Pujt8phx1eNxKMnf+AqjSjZJP5cFjAAAAAElFTkSuQmCC); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">                    </div>
+        <div class="form-row">
+            <input class="log-btn" type="submit" name="yt0" value="Sign in">        </div>
+    </fieldset>
+    </form></div>
+<div class="login-content">
+    <div class="rate-holder">
+        <div class="rate-box">
+            <div class="holder">
+                <div class="frame">
+                    <h2>free user</h2>
+                    <ul>
+                        <li><i class="fa fa-check"></i> Find friends</li>
+                        <li><i class="fa fa-check"></i> Communicate</li>
+                        <li><i class="fa fa-check"></i> Create albims and groups</li>
+                        <li><i class="fa fa-check"></i> Use free Trucker tools</li>
+                        <li><i class="fa fa-check"></i> Get latest news</li>
+                        <li class="inactive"><i class="fa fa-times"></i> Business directory registration</li>
+                        <li class="inactive"><i class="fa fa-times"></i> Access to mailing campaign</li>
+                        <li class="inactive"><i class="fa fa-times"></i> Have your bussiness appear on a map</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="rate-box">
+            <div class="holder">
+                <div class="frame">
+                    <h2>business user</h2>
+                    <ul>
+                        <li><i class="fa fa-check"></i> Find friends</li>
+                        <li><i class="fa fa-check"></i> Communicate</li>
+                        <li><i class="fa fa-check"></i> Create albims and groups</li>
+                        <li><i class="fa fa-check"></i> Use free Trucker tools</li>
+                        <li><i class="fa fa-check"></i> Get latest news</li>
+                        <li><i class="fa fa-check"></i> Business directory registration</li>
+                        <li><i class="fa fa-check"></i> Access to mailing campaign</li>
+                        <li><i class="fa fa-check"></i> Have your bussiness appear on a map</li>
+                    </ul>
+                    <p><strong>1 month is FREE</strong> <br>Next 3 months at a promotional price of 4,95 USD / per month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+            <h2 class="log-head">Registration</h2>
+        <form class="reg-form" id="account-register-form" action="/index.php?r=user/auth/login" method="post">
+<div style="display:none"><input type="hidden" value="929e495b71c98bbf062c6cd3e9eabf2a5a7a28f0" name="CSRF_TOKEN"></div>        <fieldset>
+            <div class="form-row">
+                <input placeholder="E-mail" name="AccountRegisterForm[email]" id="AccountRegisterForm_email" type="text" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">                            </div>
+            <div class="form-row">
+                <select placeholder="business level" name="AccountRegisterForm[business_level_id]" id="AccountRegisterForm_business_level_id">
+<option value="1">Free user</option>
+<option value="2">Business user</option>
+</select>            </div>
+            <div class="form-row code-row">
+                <div class="code-box"><img id="yw0" src="img/captcha.png" alt=""><a id="yw0_button" href="/index.php?r=user/auth/captcha&amp;refresh=1"><i class="fa fa-refresh"></i></a></div><input placeholder="Verify code" name="AccountRegisterForm[verifyCode]" id="AccountRegisterForm_verifyCode" type="text">            </div>
+            <div class="form-row">
+                <div class="checkbox">
+                    <!--<input type="checkbox" id="agree-check"/>-->
+                    <input id="ytagree-check" type="hidden" value="0" name="AccountRegisterForm[agreeTerms]"><input id="agree-check" name="AccountRegisterForm[agreeTerms]" value="1" type="checkbox">                    <label for="agree-check">I agree with the <a href="#">terms</a></label>
+                                    </div>
+                <button class="log-btn" type="submit">Register</button>
+            </div>
+        </fieldset>
+        </form>            <div class="lightbox-list-holder">
+        <ul class="lightbox-list">
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img01.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img01.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img02.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img02.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img03.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img03.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img04.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img04.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img05.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img05.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img06.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img06.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img03.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img03.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img04.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img04.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img05.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img05.jpg" alt=""></a>
+                Screenshot description
+            </li>
+            <li>
+                <a class="login-fancybox-gallery" href="themes/Trucker/images/login-img06.jpg" data-fancybox-group="gallery" title="Screenshot description"><img src="themes/Trucker/images/login-img06.jpg" alt=""></a>
+                Screenshot description
+            </li>
+        </ul>
+    </div>
+
+</div>    </div><!-- .middle -->
+</div><!-- .wrapper -->
+
+<footer id="footer">
+    <footer id="footer">
+<ul>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=3">Privacy policy</a></li>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=2">Terms of use</a></li>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=4">About us</a></li>
+</ul>
+</footer></footer><!-- .footer -->
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#yw0').after("<a id=\"yw0_button\" href=\"\/index.php?r=user\/auth\/captcha&amp;refresh=1\"><i class=\"fa fa-refresh\"><\/i><\/a>");
+jQuery(document).on('click', '#yw0_button', function(){
+	jQuery.ajax({
+		url: "\/index.php?r=user\/auth\/captcha&refresh=1",
+		dataType: 'json',
+		cache: false,
+		success: function(data) {
+			jQuery('#yw0').attr('src', data['url']);
+			jQuery('body').data('captcha.hash', [data['hash1'], data['hash2']]);
+		}
+	});
+	return false;
+});
+
+});
+/*]]>*/
+</script>
+
+
+<script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>
