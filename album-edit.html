@@ -161,7 +161,10 @@ var localeId = 'en';
                     <p><strong>Album description: </strong>Тут самый лучшие фотографии</p>
                     <div id="yw0" class="GalleryEditor"><!-- Gallery Toolbar -->
                         <div class="form-row">
-                            <input type="checkbox" class="action-btn align-right select_all" value="Select all">
+                            <div class="checkbox-holder">
+                                <input id="sel-all-img" type="checkbox" class=" select_all" value="Select all">
+                                <label for="sel-all-img" class="action-btn align-right">Select all</label>
+                            </div>
                             <button class="action-btn align-right edit_selected" type="submit">Edit</button>
                             <button class="action-btn align-right remove_selected" type="submit">Delete</button>
                             <div class="action-btn upload-img-btn">

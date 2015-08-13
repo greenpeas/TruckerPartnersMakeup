@@ -5010,3 +5010,10 @@ span.required {
     background: none;
     border: none;
 }
+.GalleryEditor .checkbox-holder {
+    float: right;
+    margin-left: 6px;
+}
+.GalleryEditor .checkbox-holder input {
+    margin-top: 10px;
+}
