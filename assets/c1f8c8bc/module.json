@@ -1,0 +1,11 @@
+{
+    "id": "advertising",
+    "name": "Advertising",
+    "description": "Advertising manager",
+    "keywords": ["advertising","ad"],
+    "version": "0.0.1",
+    "humhub": {
+        "minVersion": "0.8.0"
+    },
+    "screenshots": ["assets/module_image.png"]
+}
