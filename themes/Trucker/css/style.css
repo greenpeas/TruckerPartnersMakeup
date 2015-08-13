@@ -4940,6 +4940,7 @@ span.required {
 .sorter .photo .regular-checkbox:checked + .regular-checkbox-box::after {
     font-weight: bold;
     top: -4px;
+    left: 2px;
     font-size: 16px;
 }
 .sorter .photo .form-group {
@@ -4985,4 +4986,27 @@ span.required {
 }
 .GalleryEditor {
     padding: 10px 0 0;
+}
+.GalleryEditor .photo {
+    float: none;
+    height: auto;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.GalleryEditor .caption p {
+    height: auto;
+}
+.GalleryEditor .photo .actions {
+    position: relative;
+    float: none;
+    bottom: auto;
+    right: auto;
+}
+.GalleryEditor .image-preview {
+    height: auto;
+}
+.GalleryEditor .photo.selected {
+    background: none;
+    border: none;
 }
