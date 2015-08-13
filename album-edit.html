@@ -146,101 +146,312 @@ var localeId = 'en';
     <div class="content-holder">
         <div class="middle-container">
             <main id="content">
-                    
-<div class="row">
-    <div class="album-main-photo" style="background-image: url('uploads/gallery/45/900.jpg')"></div>
-    <p><strong>Album name: </strong>Мой первый альбом</p>
-    <p><strong>Album description: </strong>Тут самый лучшие фотографии</p>
-</div>
-<hr>
-<div id="yw0" class="GalleryEditor"><!-- Gallery Toolbar -->
-<div class="btn-toolbar gform">
-    <div class="btn-group">
-        <span class="btn btn-success fileinput-button">
-            <i class="fa fa-plus icon-white"></i>
-            Add…            <input type="file" name="image" class="afile" accept="image/*" multiple="multiple">
-        </span>
-    </div>
-    <div class="btn-group">
-        <label class="btn btn-primary">
-            <div class="form-group">
-                <div class="checkbox regular-checkbox-container">
-                    <label><input type="checkbox" style="margin: 0;" class="select_all regular-checkbox">Select all<div class="regular-checkbox-box"></div></label>
-                <div class="regular-checkbox-clear"></div></div>
-            </div>
-        </label>
-        <button class="btn btn-primary edit_selected"><i class="fa fa-pencil"></i> Edit</button>
-        <button class="btn btn-primary remove_selected"><i class="fa fa-trash"></i> Remove</button>
-    </div>
-</div>
-<hr>
-<!-- Gallery Photos -->
-<div class="sorter">
-    <div class="images ui-sortable"><div class="photo selected" style="position: relative;"><div class="image-preview"><img src="uploads/gallery/45/_897.jpg"></div><div class="caption"><h5></h5><p></p></div><div class="actions"><span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span> <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span></div><div class="form-group"><div class="checkbox regular-checkbox-container"><label><input type="checkbox" class="photo-select regular-checkbox"><div class="regular-checkbox-box"></div></label><div class="regular-checkbox-clear"></div></div></div></div><div class="photo selected" style="position: relative;"><div class="image-preview"><img src="uploads/gallery/45/_898.jpg"></div><div class="caption"><h5></h5><p></p></div><div class="actions"><span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span> <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span></div><div class="form-group"><div class="checkbox regular-checkbox-container"><label><input type="checkbox" class="photo-select regular-checkbox"><div class="regular-checkbox-box"></div></label><div class="regular-checkbox-clear"></div></div></div></div><div class="photo selected"><div class="image-preview"><img src="uploads/gallery/45/_899.jpg"></div><div class="caption"><h5></h5><p></p></div><div class="actions"><span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span> <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span></div><div class="form-group"><div class="checkbox regular-checkbox-container"><label><input type="checkbox" class="photo-select regular-checkbox"><div class="regular-checkbox-box"></div></label><div class="regular-checkbox-clear"></div></div></div></div><div class="photo selected"><div class="image-preview"><img src="uploads/gallery/45/_900.jpg"></div><div class="caption"><h5></h5><p></p></div><div class="actions"><span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span> <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span></div><div class="form-group"><div class="checkbox regular-checkbox-container"><label><input type="checkbox" class="photo-select regular-checkbox"><div class="regular-checkbox-box"></div></label><div class="regular-checkbox-clear"></div></div></div></div></div>
-    <br style="clear: both;">
-</div>
+                <div class="content-frame">
+                    <h2 class="decor-heading">Album's name</h2>
+                    <div class="link-box add">
+                        <a href="#" class="dark-link"><strong>&lt; Back to albums</strong></a>
+                    </div>
+                    <div class="resize-img-holder">
+                        <img class="resize-img" src="themes/Trucker/images/wide-img.jpg" alt=""/>
+                    </div>
+                    <!--
+                    <div class="album-main-photo" style="background-image: url('../im')"></div>
+                    -->
+                    <p><strong>Album name: </strong>Мой первый альбом</p>
+                    <p><strong>Album description: </strong>Тут самый лучшие фотографии</p>
+                    <div id="yw0" class="GalleryEditor"><!-- Gallery Toolbar -->
+                        <div class="form-row">
+                            <button class="action-btn align-right" type="submit">Select all</button>
+                            <button class="action-btn align-right" type="submit">Edit</button>
+                            <button class="action-btn align-right" type="submit">Delete</button>
+                            <div class="action-btn upload-img-btn">
+                                <input type="file" multiple="multiple" accept="image/*" class="afile" name="image">
+                            </div>
+                        </div>
+                    <!--
+                        <div class="btn-toolbar gform">
+                            <div class="btn-group">
+                                <span class="btn btn-success fileinput-button">
+                                    <i class="fa fa-plus icon-white"></i>
+                                    Add…            <input type="file" name="image" class="afile" accept="image/*" multiple="multiple">
+                                </span>
+                            </div>
+                            <div class="btn-group">
+                                <label class="btn btn-primary">
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label><input type="checkbox" style="margin: 0;" class="select_all regular-checkbox">Select all<div class="regular-checkbox-box"></div></label>
+                                            <div class="regular-checkbox-clear"></div></div>
+                                    </div>
+                                </label>
+                                <button class="btn btn-primary edit_selected"><i class="fa fa-pencil"></i> Edit</button>
+                                <button class="btn btn-primary remove_selected"><i class="fa fa-trash"></i> Remove</button>
+                            </div>
+                        </div>
+                        -->
+                        <!-- Gallery Photos -->
+                        <div class="sorter">
+                            <div class="images ui-sortable">
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                                <div class="photo selected" style="position: relative;">
+                                    <div class="image-preview">
+                                        <div class="resize-img-holder">
+                                            <img class="resize-img" src="themes/Trucker/images/photo-img.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                    <div class="caption">
+                                        <h5></h5>
+                                        <p></p>
+                                    </div>
+                                    <div class="actions">
+                                        <span class="editPhoto btn btn-primary btn-sm"><i class="fa fa-pencil"></i></span>
+                                        <span class="deletePhoto btn btn-danger btn-sm"><i class="fa fa-trash icon-white"></i></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="checkbox regular-checkbox-container">
+                                            <label>
+                                                <input type="checkbox" class="photo-select regular-checkbox">
+                                                <div class="regular-checkbox-box"></div>
+                                            </label>
+                                            <div class="regular-checkbox-clear"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- .photo -->
+                            </div>
+                            <br style="clear: both;">
+                        </div>
 
-<!-- Modal window to edit photo information -->
-<div class="modal editor-modal bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <a class="close" data-dismiss="modal">×</a>
-                <h3>Edit information</h3>
-            </div>
-            <div class="modal-body">
-                <div class="form"></div>
-            </div>
-            <div class="modal-footer">
-                <a href="#" class="btn btn-primary save-changes">
-                    Save changes                </a>
-                <a href="#" class="btn" data-dismiss="modal">Close</a>
-            </div>
-        </div>
-    </div>
-</div>
+                        <!-- Modal window to edit photo information -->
+                        <div class="modal editor-modal bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <a class="close" data-dismiss="modal">×</a>
+                                        <h3>Edit information</h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form"></div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="#" class="btn btn-primary save-changes">
+                                            Save changes                </a>
+                                        <a href="#" class="btn" data-dismiss="modal">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-<div class="overlay">
-    <div class="overlay-bg">&nbsp;</div>
-    <div class="drop-hint">
-        <span class="drop-hint-info">Drop Files Here…</span>
-    </div>
-</div>
-<!-- Upload Progress Modal-->
-<div class="modal progress-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Uploading images…</h3>
-            </div>
-            <div class="modal-body">
-                <div class="progress progress-striped active">
-                    <div class="progress-bar progress-bar-success upload-progress"></div>
+                        <div class="overlay">
+                            <div class="overlay-bg">&nbsp;</div>
+                            <div class="drop-hint">
+                                <span class="drop-hint-info">Drop Files Here…</span>
+                            </div>
+                        </div>
+                        <!-- Upload Progress Modal-->
+                        <div class="modal progress-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3>Uploading images…</h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="progress progress-striped active">
+                                            <div class="progress-bar progress-bar-success upload-progress"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>            </main>
+            </main>
         </div>
         <aside class="left-sidebar">
             <nav id="nav">
-    <ul>
-                    <li><a class="profile-link " href="/index.php?r=user/profile&amp;uguid=3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d" target="">Profile</a></li>
-            <li><a class="dashboard-link dashboard" href="/index.php?r=dashboard/dashboard" target="">Dashboard</a></li>
-            <li><a class="friends-link " href="/index.php?r=space/list/all" target="">My groups</a></li>
-            <li><a class="news-link " href="/index.php?r=rssnews/rss/index" target="">News</a></li>
-            <li><a class="messages-link lm-mess-count" href="/index.php?r=mail/mail/index" target="">Messages</a></li>
-            <li><a class="albums-link active " href="/index.php?r=gallery/gallery/index&amp;guid=3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d" target="">Albums</a></li>
-            <li><a class="trucker-wiki-link " href="/index.php?r=custom_pages/view&amp;id=1" target="">Trucker Wiki</a></li>
-            <li><a class="friends-link " href="/index.php?r=friendship/friends" target="">My friends</a></li>
-            <li><a class="business-link " href="/index.php?r=user/companies" target="">Business List</a></li>
-            <li><a class="trucker-tools-link " href="/index.php?r=trucker_tools" target="">Trucker Tools</a></li>
-            <li><a class="activity-link " href="/index.php?r=activity" target="">Latest activities</a></li>
-            <li><a class="download-link " href="/index.php?r=file/myfiles" target="">My files</a></li>
-    </ul>
-</nav>
-
+                <div class="nav-holder">
+                    <ul>
+                        <li><a class="profile-link " href="/index.php?r=user/profile&amp;uguid=3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d" target="">Profile</a></li>
+                        <li><a class="dashboard-link dashboard" href="/index.php?r=dashboard/dashboard" target="">Dashboard</a></li>
+                        <li><a class="friends-link " href="/index.php?r=space/list/all" target="">My groups</a></li>
+                        <li><a class="news-link " href="/index.php?r=rssnews/rss/index" target="">News</a></li>
+                        <li><a class="messages-link lm-mess-count" href="/index.php?r=mail/mail/index" target="">Messages</a></li>
+                        <li><a class="albums-link active " href="/index.php?r=gallery/gallery/index&amp;guid=3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d" target="">Albums</a></li>
+                        <li><a class="trucker-wiki-link " href="/index.php?r=custom_pages/view&amp;id=1" target="">Trucker Wiki</a></li>
+                        <li><a class="friends-link " href="/index.php?r=friendship/friends" target="">My friends</a></li>
+                        <li><a class="business-link " href="/index.php?r=user/companies" target="">Business List</a></li>
+                        <li><a class="trucker-tools-link " href="/index.php?r=trucker_tools" target="">Trucker Tools</a></li>
+                        <li><a class="activity-link " href="/index.php?r=activity" target="">Latest activities</a></li>
+                        <li><a class="download-link " href="/index.php?r=file/myfiles" target="">My files</a></li>
+                    </ul>
+                </div>
+            </nav>
 <script type="text/javascript">
     $.ajax({
         url: '/index.php?r=mail/mail/GetMessageCount',

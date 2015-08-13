@@ -132,449 +132,214 @@ var localeId = 'en';
 
 </div>            </header>
             <div class="middle">
-                                    <div class="container">
-    <div class="row">
-        <div class="col-md-2">
-                        <div class="gradient-box-holder left-dop-menu">
-    <div class="gradient-box clearfix">
+                <div class="content-holder">
+                    <div class="middle-container">
+                        <main id="content">
+                            <div class="content-frame">
+                                <h2 class="decor-heading">User details</h2>
+                                <div class="link-box add">
+                                    <a class="dark-link" href="#"><strong>&lt; Back to profile</strong></a>
+                                </div>
+                                <div style="" id="profile-form-container">
+                                    <form method="post" action="/index.php?r=user/account/edit/guid/3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d" id="yw0">
+                                        <ul data-tabs="tabs" class="nav nav-tabs" id="profile-tabs">
+                                            <li class="active"><a data-toggle="tab" href="#category-0">General Information</a></li>
+                                            <li><a data-toggle="tab" href="#category-1">Communication</a></li>
+                                            <li><a data-toggle="tab" href="#category-2">Social bookmarks</a></li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div id="category-0" class="tab-pane active">
+                                                <div class="form-group field_company_name">
+                                                    <label class="required" for="Profile_company_name">Company name <span class="required">*</span></label>
+                                                    <input type="text" maxlength="100" id="Profile_company_name" name="Profile[company_name]" class="form-control">
+                                                </div>
+                                                <div class="form-group field_title">
+                                                    <label for="Profile_title">Job Title</label>
+                                                    <input type="text" value="GreenPeas" maxlength="100" id="Profile_title" name="Profile[title]" class="form-control">
+                                                </div>
+                                                <div class="form-group field_ref_scope_id">
+                                        <label class="required" for="Profile_ref_scope_id">Scope <span class="required">*</span></label>
+                                        <select id="Profile_ref_scope_id" name="Profile[ref_scope_id]" class="form-control">
+                                            <option value="">Please select:</option>
+                                            <option value="1">Сфера деятельности 1</option>
+                                            <option value="2">Сфера деятельности 2</option>
+                                        </select>
 
-        
-                        
-                            <h2 class="decor-heading"><strong>Account</strong> settings</h2>
-                            
-            <ul>
-                                    <li><a href="/index.php?r=user/account/edit" target="" class=" active ">profile-link<span>Profile</span></a></li>
-                                    <li><a href="/index.php?r=user/account/editSettings" target="" class=" "><i class="fa fa-wrench"></i><span>Settings</span></a></li>
-                                    <li><a href="/index.php?r=user/account/editModules" target="" class=" "><i class="fa fa-rocket"></i><span>Modules</span></a></li>
-                                    <li><a href="/index.php?r=user/account/emailing" target="" class=" "><i class="fa fa-bell"></i><span>Notifications</span></a></li>
-                                    <li><a href="/index.php?r=user/account/changeEmail" target="" class=" "><i class="fa fa-paper-plane"></i><span>E-Mail</span></a></li>
-                                    <li><a href="/index.php?r=user/account/changePassword" target="" class=" "><i class="fa fa-key"></i><span>Password</span></a></li>
-                                    <li><a href="/index.php?r=user/account/delete" target="" class=" "><i class="fa fa-trash-o"></i><span>Delete account</span></a></li>
-                            </ul>
-        
+                                    </div><div class="form-group field_street">
+                                        <label for="Profile_street">Street Address</label>
+                                        <input type="text" maxlength="150" id="Profile_street" name="Profile[street]" class="form-control">
+
+                                    </div><div class="form-group field_state">
+                                        <label for="Profile_state">State/Province</label>
+                                        <select id="Profile_state" name="Profile[state]" class="form-control">
+                                            <option value="">Please select:</option>
+                                            <optgroup label="United States of America">
+                                                <option value="3">Alabama</option>
+                                                <option value="4">Alaska</option>
+                                                <option value="5">Arizona</option>
+                                                <option value="6">Arkansas</option>
+                                                <option value="18">California</option>
+                                                <option value="21">Colorado</option>
+                                                <option value="20">Commonwealth of Kentucky</option>
+                                                <option value="24">Commonwealth of Massachusetts</option>
+                                                <option value="41">Commonwealth of Pennsylvania</option>
+                                                <option value="10">Commonwealth of Virginia</option>
+                                                <option value="22">Connecticut</option>
+                                                <option value="13">Delaware</option>
+                                                <option value="47">Florida</option>
+                                                <option value="14">Georgia</option>
+                                                <option value="12">Hawaii</option>
+                                                <option value="1">Idaho</option>
+                                                <option value="16">Illinois</option>
+                                                <option value="17">Indiana</option>
+                                                <option value="2">Iowa</option>
+                                                <option value="19">Kansas</option>
+                                                <option value="23">Louisiana</option>
+                                                <option value="30">Maine</option>
+                                                <option value="31">Maryland</option>
+                                                <option value="28">Michigan</option>
+                                                <option value="25">Minnesota</option>
+                                                <option value="26">Mississippi</option>
+                                                <option value="27">Missouri</option>
+                                                <option value="29">Montana</option>
+                                                <option value="32">Nebraska</option>
+                                                <option value="33">Nevada</option>
+                                                <option selected="selected" value="34">New Hampshire</option>
+                                                <option value="35">New Jersey</option>
+                                                <option value="37">New Mexico Estado de Nuevo México</option>
+                                                <option value="36">New York</option>
+                                                <option value="44">North Carolina</option>
+                                                <option value="43">North Dakota</option>
+                                                <option value="38">Ohio</option>
+                                                <option value="39">Oklahoma</option>
+                                                <option value="40">Oregon</option>
+                                                <option value="42">Rhode Island and Providence Plantations</option>
+                                                <option value="49">South Carolina</option>
+                                                <option value="48">South Dakota</option>
+                                                <option value="45">Tennessee</option>
+                                                <option value="46">Texas</option>
+                                                <option value="50">Utah</option>
+                                                <option value="9">Vermont</option>
+                                                <option value="8">Washington</option>
+                                                <option value="15">West Virginia</option>
+                                                <option value="11">Wisconsin</option>
+                                                <option value="7">Wyoming</option>
+                                            </optgroup>
+                                            <optgroup label="Canada">
+                                                <option value="56">Alberta</option>
+                                                <option value="55">British Columbia</option>
+                                                <option value="58">Manitoba</option>
+                                                <option value="61">New Brunswick</option>
+                                                <option value="60">Newfoundland and Labrador</option>
+                                                <option value="53">Northwest Territories</option>
+                                                <option value="62">Nova Scotia</option>
+                                                <option value="51">Nunavut</option>
+                                                <option value="54">Ontario</option>
+                                                <option value="63">Prince Edward Island</option>
+                                                <option value="52">Quebec</option>
+                                                <option value="57">Saskatchewan</option>
+                                                <option value="59">Yukon</option>
+                                            </optgroup>
+                                        </select>
+
+                                    </div><div class="form-group field_county">
+                                        <label for="Profile_county">County</label>
+                                        <select id="Profile_county" name="Profile[county]" class="form-control">
+                                            <option value="">Please select:</option>
+                                            <option selected="selected" value="">Sullivan County</option>
+                                            <option value="Belknap County">Belknap County</option><option value="Carroll County">Carroll County</option><option value="Cheshire County">Cheshire County</option><option value="Coos County">Coos County</option><option value="Grafton County">Grafton County</option><option value="Hillsborough County">Hillsborough County</option><option value="Merrimack County">Merrimack County</option><option value="Rockingham County">Rockingham County</option><option value="Strafford County">Strafford County</option><option value="Sullivan County">Sullivan County</option></select>
+
+                                    </div><div class="form-group field_city">
+                                        <label for="Profile_city">Town/City</label>
+                                        <select id="Profile_city" name="Profile[city]" class="form-control">
+                                            <option value="">Please select:</option>
+                                            <option value="5466108">Sambro</option>
+                                            <option value="5464833">Altario</option>
+                                            <option value="5466081">Stirling</option>
+                                            <option value="5467574">Elmira</option>
+                                            <option value="5127022">Marina</option>
+                                            <option value="5467128">Island Harbour Marina</option>
+                                        </select>
+
+                                    </div><div class="form-group field_zip">
+                                        <label for="Profile_zip">Zip/Postal Code</label>
+                                        <input type="text" maxlength="10" id="Profile_zip" name="Profile[zip]" class="form-control">
+
+                                    </div><div class="form-group field_about">
+                                        <label for="Profile_about">About me</label>
+                                        <textarea id="Profile_about" name="Profile[about]" rows="3" class="form-control">Job in Routeam!!!</textarea>
+
+                                    </div></div><div id="category-1" class="tab-pane"><div class="form-group field_phone_work">
+                                        <label for="Profile_phone_work">Phone Work</label>
+                                        <input type="text" maxlength="100" id="Profile_phone_work" name="Profile[phone_work]" class="form-control">
+
+                                    </div><div class="form-group field_fax">
+                                        <label for="Profile_fax">Fax</label>
+                                        <input type="text" maxlength="100" id="Profile_fax" name="Profile[fax]" class="form-control">
+
+                                    </div><div class="form-group field_im_skype">
+                                        <label for="Profile_im_skype">Skype Nickname</label>
+                                        <input type="text" value="artyomov.anton" maxlength="100" id="Profile_im_skype" name="Profile[im_skype]" class="form-control">
+
+                                    </div><div class="form-group field_im_msn">
+                                        <label for="Profile_im_msn">MSN</label>
+                                        <input type="text" maxlength="100" id="Profile_im_msn" name="Profile[im_msn]" class="form-control">
+
+                                    </div><div class="form-group field_im_xmpp">
+                                        <label for="Profile_im_xmpp">XMPP Jabber Address</label>
+                                        <input type="text" value="greenpeas@qip.ru" maxlength="255" id="Profile_im_xmpp" name="Profile[im_xmpp]" class="form-control">
+
+                                    </div></div><div id="category-2" class="tab-pane"><div class="form-group field_url">
+                                        <label for="Profile_url">Url</label>
+                                        <input type="text" maxlength="255" id="Profile_url" name="Profile[url]" class="form-control">
+
+                                    </div><div class="form-group field_url_linkedin">
+                                        <label for="Profile_url_linkedin">LinkedIn URL</label>
+                                        <input type="text" maxlength="255" id="Profile_url_linkedin" name="Profile[url_linkedin]" class="form-control">
+
+                                    </div><div class="form-group field_url_twitter">
+                                        <label for="Profile_url_twitter">Twitter URL</label>
+                                        <input type="text" maxlength="255" id="Profile_url_twitter" name="Profile[url_twitter]" class="form-control">
+
+                                    </div></div></div>
+                                        <div style="display:none"><input type="hidden" name="CSRF_TOKEN" value="7bfa051f9f1492c2c17ec466dca54bb4e2b8826d"></div>
+                                        <div style="visibility:hidden"><input type="hidden" id="yform_e47e321e" name="yform_e47e321e" value="1"></div>
+                                        <div class="form-group-buttons buttons">
+                                            <input type="submit" value="Save profile" name="save" class="btn btn-primary">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div id="profile-loader" class="loader" style="display: none;"></div>
                             </div>
-</div>
-        </div>
-        <div class="col-md-7">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-    <strong>User</strong> details
-    <!-- show flash message after saving -->
-    <!-- check if flash message exists -->
-
-
-
-
-
-</div>
-<div class="panel-body">
-
-    <div id="profile-form-container" style="">
-        <form id="yw0" action="/index.php?r=user/account/edit/guid/3cb2d43e-9b3c-4b86-93dc-b9f62f3a5c2d" method="post"><ul id="profile-tabs" class="nav nav-tabs" data-tabs="tabs"><li class="active"><a href="#category-0" data-toggle="tab">General Information</a></li><li><a href="#category-1" data-toggle="tab">Communication</a></li><li><a href="#category-2" data-toggle="tab">Social bookmarks</a></li></ul><div class="tab-content"><div class="tab-pane active" id="category-0"><div class="form-group field_company_name">
-<label for="Profile_company_name" class="required">Company name <span class="required">*</span></label>
-<input class="form-control" name="Profile[company_name]" id="Profile_company_name" type="text" maxlength="100" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">
-
-</div><div class="form-group field_title">
-<label for="Profile_title">Job Title</label>
-<input class="form-control" name="Profile[title]" id="Profile_title" type="text" maxlength="100" value="GreenPeas">
-
-</div><div class="form-group field_ref_scope_id">
-<label for="Profile_ref_scope_id" class="required">Scope <span class="required">*</span></label>
-<select class="form-control" name="Profile[ref_scope_id]" id="Profile_ref_scope_id">
-<option value="">Please select:</option>
-<option value="1">Сфера деятельности 1</option>
-<option value="2">Сфера деятельности 2</option>
-</select>
-
-</div><div class="form-group field_street">
-<label for="Profile_street">Street Address</label>
-<input class="form-control" name="Profile[street]" id="Profile_street" type="text" maxlength="150">
-
-</div><div class="form-group field_state">
-<label for="Profile_state">State/Province</label>
-<select class="form-control" name="Profile[state]" id="Profile_state">
-<option value="">Please select:</option>
-<optgroup label="United States of America">
-<option value="3">Alabama</option>
-<option value="4">Alaska</option>
-<option value="5">Arizona</option>
-<option value="6">Arkansas</option>
-<option value="18">California</option>
-<option value="21">Colorado</option>
-<option value="20">Commonwealth of Kentucky</option>
-<option value="24">Commonwealth of Massachusetts</option>
-<option value="41">Commonwealth of Pennsylvania</option>
-<option value="10">Commonwealth of Virginia</option>
-<option value="22">Connecticut</option>
-<option value="13">Delaware</option>
-<option value="47">Florida</option>
-<option value="14">Georgia</option>
-<option value="12">Hawaii</option>
-<option value="1">Idaho</option>
-<option value="16">Illinois</option>
-<option value="17">Indiana</option>
-<option value="2">Iowa</option>
-<option value="19">Kansas</option>
-<option value="23">Louisiana</option>
-<option value="30">Maine</option>
-<option value="31">Maryland</option>
-<option value="28">Michigan</option>
-<option value="25">Minnesota</option>
-<option value="26">Mississippi</option>
-<option value="27">Missouri</option>
-<option value="29">Montana</option>
-<option value="32">Nebraska</option>
-<option value="33">Nevada</option>
-<option value="34" selected="selected">New Hampshire</option>
-<option value="35">New Jersey</option>
-<option value="37">New Mexico Estado de Nuevo México</option>
-<option value="36">New York</option>
-<option value="44">North Carolina</option>
-<option value="43">North Dakota</option>
-<option value="38">Ohio</option>
-<option value="39">Oklahoma</option>
-<option value="40">Oregon</option>
-<option value="42">Rhode Island and Providence Plantations</option>
-<option value="49">South Carolina</option>
-<option value="48">South Dakota</option>
-<option value="45">Tennessee</option>
-<option value="46">Texas</option>
-<option value="50">Utah</option>
-<option value="9">Vermont</option>
-<option value="8">Washington</option>
-<option value="15">West Virginia</option>
-<option value="11">Wisconsin</option>
-<option value="7">Wyoming</option>
-</optgroup>
-<optgroup label="Canada">
-<option value="56">Alberta</option>
-<option value="55">British Columbia</option>
-<option value="58">Manitoba</option>
-<option value="61">New Brunswick</option>
-<option value="60">Newfoundland and Labrador</option>
-<option value="53">Northwest Territories</option>
-<option value="62">Nova Scotia</option>
-<option value="51">Nunavut</option>
-<option value="54">Ontario</option>
-<option value="63">Prince Edward Island</option>
-<option value="52">Quebec</option>
-<option value="57">Saskatchewan</option>
-<option value="59">Yukon</option>
-</optgroup>
-</select>
-
-</div><div class="form-group field_county">
-<label for="Profile_county">County</label>
-<select class="form-control" name="Profile[county]" id="Profile_county">
-<option value="">Please select:</option>
-<option value="" selected="selected">Sullivan County</option>
-<option value="Belknap County">Belknap County</option><option value="Carroll County">Carroll County</option><option value="Cheshire County">Cheshire County</option><option value="Coos County">Coos County</option><option value="Grafton County">Grafton County</option><option value="Hillsborough County">Hillsborough County</option><option value="Merrimack County">Merrimack County</option><option value="Rockingham County">Rockingham County</option><option value="Strafford County">Strafford County</option><option value="Sullivan County">Sullivan County</option></select>
-
-</div><div class="form-group field_city">
-<label for="Profile_city">Town/City</label>
-<select class="form-control" name="Profile[city]" id="Profile_city">
-<option value="">Please select:</option>
-<option value="5466108">Sambro</option>
-<option value="5464833">Altario</option>
-<option value="5466081">Stirling</option>
-<option value="5467574">Elmira</option>
-<option value="5127022">Marina</option>
-<option value="5467128">Island Harbour Marina</option>
-</select>
-
-</div><div class="form-group field_zip">
-<label for="Profile_zip">Zip/Postal Code</label>
-<input class="form-control" name="Profile[zip]" id="Profile_zip" type="text" maxlength="10">
-
-</div><div class="form-group field_about">
-<label for="Profile_about">About me</label>
-<textarea class="form-control" rows="3" name="Profile[about]" id="Profile_about">Job in Routeam!!!</textarea>
-
-</div></div><div class="tab-pane" id="category-1"><div class="form-group field_phone_work">
-<label for="Profile_phone_work">Phone Work</label>
-<input class="form-control" name="Profile[phone_work]" id="Profile_phone_work" type="text" maxlength="100">
-
-</div><div class="form-group field_fax">
-<label for="Profile_fax">Fax</label>
-<input class="form-control" name="Profile[fax]" id="Profile_fax" type="text" maxlength="100">
-
-</div><div class="form-group field_im_skype">
-<label for="Profile_im_skype">Skype Nickname</label>
-<input class="form-control" name="Profile[im_skype]" id="Profile_im_skype" type="text" maxlength="100" value="artyomov.anton">
-
-</div><div class="form-group field_im_msn">
-<label for="Profile_im_msn">MSN</label>
-<input class="form-control" name="Profile[im_msn]" id="Profile_im_msn" type="text" maxlength="100">
-
-</div><div class="form-group field_im_xmpp">
-<label for="Profile_im_xmpp">XMPP Jabber Address</label>
-<input class="form-control" name="Profile[im_xmpp]" id="Profile_im_xmpp" type="text" maxlength="255" value="greenpeas@qip.ru">
-
-</div></div><div class="tab-pane" id="category-2"><div class="form-group field_url">
-<label for="Profile_url">Url</label>
-<input class="form-control" name="Profile[url]" id="Profile_url" type="text" maxlength="255">
-
-</div><div class="form-group field_url_linkedin">
-<label for="Profile_url_linkedin">LinkedIn URL</label>
-<input class="form-control" name="Profile[url_linkedin]" id="Profile_url_linkedin" type="text" maxlength="255">
-
-</div><div class="form-group field_url_twitter">
-<label for="Profile_url_twitter">Twitter URL</label>
-<input class="form-control" name="Profile[url_twitter]" id="Profile_url_twitter" type="text" maxlength="255">
-
-</div></div></div>
-<div style="display:none"><input type="hidden" value="7bfa051f9f1492c2c17ec466dca54bb4e2b8826d" name="CSRF_TOKEN"></div><div style="visibility:hidden"><input type="hidden" value="1" name="yform_e47e321e" id="yform_e47e321e"></div>
-
-
-
-
-
-<hr><div class="form-group-buttons buttons"><input class="btn btn-primary" name="save" type="submit" value="Save profile">
-</div>
-
-</form>    </div>
-    <div id="profile-loader" class="loader" style="display: none;"></div>
-
-
-</div>
-
-<script type="text/javascript">
-    
-    var countries = {
-        1:'United States of America',2:'Canada'    };
-    $(document).ready(function () {
-        
-        $('#Profile_country').prop( "disabled", true );
-        
-        var region_id = $('#Profile_state option:selected').val();
-        
-        if (region_id) { console.log('region_id alr'); getCounties(region_id); }
-        
-        $('body').on('change','#Profile_county',function(){
-            
-            $('#Profile_city').empty();
-            getCities($('#Profile_county option:selected').val());
-            
-        });
-        
-        $('body').on('change','#Profile_state',function(){
-            
-            $('#Profile_county').empty();
-            $('#Profile_city').empty();
-            getCounties($('#Profile_state option:selected').val());
-            
-            $.ajax({
-                'type': 'GET',
-                'url': '/index.php?r=user/profile/ajxgetcountry',
-                'data': {'id':$(this).val()},
-                'success': function (html) {
-                    $('#Profile_country').val(html);
-                }
-            });
-            
-        });
-        
-        $('body').on('click','input[name="save"]',function(){
-        
-        var business_level = 2        
-            if (business_level > 1) {
-
-            var geocoder = new google.maps.Geocoder();
-            var address = $("#Profile_street").val() + ',' + $("#Profile_city").val() + ',' + $("#Profile_state option:selected").text() + ' ' + $("#Profile_zip").val();
-        
-            geocoder.geocode({ 'address': address}, function(results, status) {
-            
-                if (status == google.maps.GeocoderStatus.OK) {
-                
-                    var lat  = results[0].geometry.location.A;
-                    var long = results[0].geometry.location.F;
-                
-                    $.ajax({
-                        url: '/index.php?r=user/checkin',
-                        type: 'POST',
-                        dataType: 'json',
-                        data: { lat: lat, lon: long, APPID: 'd6d0f48b61a0c50f869ac0ad8a6322ed' }
-                    });
-                }
-
-            });
-            
-            }
-        
-        });
-        
-        // save the tab to show
-        var activeTab = 0;
-
-        // add tab content <div>
-        $('#profile-form-container form').prepend('<div class="tab-content"></div>');
-
-        // add clickable tabs
-        $('#profile-form-container form').prepend('<ul id="profile-tabs" class="nav nav-tabs" data-tabs="tabs"></ul>');
-
-        // go through all fieldsets with inputs (categories)
-        $('#profile-form-container form fieldset legend').each(function (index, value) {
-
-            // save current tab index by the first error to activate him later
-            if (checkErrors($(this)) == true && activeTab == 0) {
-                activeTab = index;
-            }
-
-            // save category text
-            var _category = $(this).text();
-
-            // build tab structure
-            var _tab = '<li><a href="#category-' + index + '" data-toggle="tab">' + _category + '</a></li>';
-
-            // add tab structure to tab
-            $('#profile-tabs').append(_tab);
-
-            // build tab content container
-            var _tabContent = '<div class="tab-pane" id="category-' + index + '"></div>';
-
-            // add content to tab content container
-            $('.tab-content').append(_tabContent);
-
-            // clone every inputs from original form
-            var $inputs = $(this).parent().children(".form-group").clone();
-
-            // add cloned inputs to current tab content container
-            $('#category-' + index).html($inputs);
-
-            // remove original inputs from original form
-            $(this).parent().remove();
-
-        })
-
-        // add an <hr> between tab and submit button
-        $('#profile-form-container form .form-group-buttons').before('<hr>');
-
-
-        // check if errorSummary element exists
-        if ($('.errorSummary').length != null) {
-
-            // clone element
-            var _errorSummary = $('.errorSummary').clone();
-
-            // remove original element
-            $('.errorSummary').remove();
-
-            // add cloned element at the top
-            $('#profile-form-container form').prepend(_errorSummary);
-
-        }
-
-        // activate the first tab or the tab with the first error
-        $('#profile-tabs a[href="#category-' + activeTab + '"]').tab('show')
-
-        // hide loader
-        $('#profile-loader').hide();
-
-        // show created tab element
-        $('#profile-form-container').show();
-
-
-    })
-
-
-    /**
-     * Check for errors in a specific category
-     * @param _object
-     * @returns {boolean}
-     */
-    function checkErrors(_object) {
-
-        // save standard result
-        var _error = false;
-
-        // go through every input
-        _object.parent().children(".form-group").each(function (index, value) {
-
-            // if an input have the class "error"
-            if ($(this).children('.form-control').hasClass("error")) {
-
-                // change standard result
-                _error = true;
-
-                // stop loop/function
-                return false;
-            }
-        })
-
-        // return result
-        return _error;
-
-    }
-    
-    function getCounties(region_id){
-        var url = "index.php?r=cities/AjaxGetStateCounties";
-            
-        $.ajax({
-            url: url,
-            data: "id="+region_id,
-            success: function (data) {
-                    
-                $.each(data.items, function (id, value) {
-                        
-                    $('#Profile_county')
-                        .append($('<option></option>')
-                        .attr('value', value.state)
-                        .text(value.state));
-
-                });
-                    
-            },
-            error: function (data) {
-                    
-                console.log('ERROR');
-                    
-            },
-            complete: function (data) {
-                    
-            },
-
-            dataType: "json"
-        });
-    }
-        
-    function getCities(county_name){
-        var url = "index.php?r=cities/AjaxGetStateCities";
-            
-        $.ajax({
-            url: url,
-            data: "county="+county_name,
-            success: function (data) {
-                    
-                $.each(data.items, function (id, value) {
-                        
-                    $('#Profile_city')
-                        .append($('<option></option>')
-                        .attr('value', value.id)
-                        .text(value.name));
-
-                    });
-                    
-            },
-            error: function (data) {
-                    
-                console.log('ERROR');
-                    
-            },
-            complete: function (data) {
-                    
-            },
-
-            dataType: "json"
-        });
-    }
-
-</script>            </div>
-        </div>
-        <div class="col-md-3">
-        </div>
-    </div>
-</div>
+                        </main><!-- .content -->
+                    </div><!-- .container-->
+                    <aside class="left-sidebar">
+                        <nav id="nav">
+                            <div class="nav-holder">
+                                <ul>
+                                    <li><a class="settings-link" href="#">Settings</a></li>
+                                    <li><a class="modules-link" href="#">Modules</a></li>
+                                    <li><a class="notifications-link" href="#">Notifications</a></li>
+                                    <li><a class="messages-link" href="#">E-mail</a></li>
+                                    <li><a class="password-link" href="#">Password</a></li>
+                                    <li><a class="delete-link" href="#">Delete account</a></li>
+                                </ul>
                             </div>
+                        </nav>
+                    </aside><!-- .left-sidebar -->
+                    <aside class="right-sidebar">
+                        <!-- .gradient-box-holder -->
+                        <!-- .gradient-box-holder -->
+                        <div class="gradient-box-holder">
+                            <div class="gradient-box">
+                                <h2 class="decor-heading">Friends map</h2>
+                                <img alt="" src="images/map-img.jpg">
+                            </div>
+                        </div><!-- .gradient-box-holder -->
+                    </aside><!-- .right-sidebar -->
+                </div>
+
+            </div>
         </div>
         <!-- start: Modal (every lightbox will/should use this construct to show content)-->
         <div class="modal" id="globalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
