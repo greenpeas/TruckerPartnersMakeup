@@ -288,3 +288,10 @@ input.tag_input_field {
 a.btn {
     text-decoration: none;
 }
+#nav .nav-holder ul {
+    padding: 10px 18px;
+    width: 196px;
+}
+#upload-file-container {
+    display:block;
+}
