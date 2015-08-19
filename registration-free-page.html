@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en" class="js rgba backgroundsize borderradius boxshadow fontface inlinesvg"><head>
+        <meta charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script><style type="text/css"></style>
+<script type="text/javascript">
+/*<![CDATA[*/
+ $.ajaxSetup({
+			data: {"CSRF_TOKEN": "929e495b71c98bbf062c6cd3e9eabf2a5a7a28f0"},
+			cache:false
+			});
+/*]]>*/
+</script>
+<title>Trucker Partners</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,900&amp;subset=cyrillic,latin" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Scada:400italic,400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="themes/Trucker/css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="themes/Trucker/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="themes/Trucker/css/login-page-style.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+    <script type="text/javascript" src="themes/Trucker/js/modernizr-2.8.3.custom.js"></script>
+    <script type="text/javascript" src="themes/Trucker/js/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="themes/Trucker/js/jquery.main.js"></script>
+<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+<body><script type="text/javascript">
+/*<![CDATA[*/
+var csrfName = 'CSRF_TOKEN';
+
+var csrfValue = '929e495b71c98bbf062c6cd3e9eabf2a5a7a28f0';
+
+var baseUrl = 'http://yiitrucks.local';
+
+var localeId = 'en';
+
+/*]]>*/
+</script>
+
+<!--[if lt IE 7]><p class=chromeframe>Ваш браузер <em>устарел!</em> <a href="http://browsehappy.com/">Обновите ваш браузер</a> or <a href="http://www.google.com/chromeframe/?redirect=true">установить Google Chrome Frame</a>.</p><![endif]-->
+<div class="wrapper login-holder">
+    <header id="header">
+        <a class="logo" href="#"><img src="themes/Trucker/images/logo-img.png" alt=""></a>
+        <div class="promo-box">
+            <div class="holder">
+                <strong>Welcome to</strong>
+                <h1>Trucker Partners</h1>
+                <p>the first trucker social community</p>
+            </div>
+        </div>
+    </header><!-- .header-->
+    <div class="middle">
+        <div class="reg-form-box">
+            <h2 class="log-head">Free User registration</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <div class="form-row">
+                        <input class="form-control" placeholder="First name*" name="FreeUserRegistration[firstname]" type="text" autocomplete="off">
+                    </div>
+                    <div class="form-row">
+                        <input class="form-control" placeholder="Last name*" name="FreeUserRegistration[firstname]" type="text" autocomplete="off">
+                    </div>
+                    <div class="form-row">
+                        <input class="form-control" placeholder="State/province*" name="FreeUserRegistration[firstname]" type="text" autocomplete="off">
+                    </div>
+                    <div class="form-row">
+                        <input class="form-control" placeholder="Town/city" name="FreeUserRegistration[firstname]" type="text" autocomplete="off">
+                    </div>
+                    <div class="form-row">
+                        <input class="form-control" placeholder="New password*" name="FreeUserRegistration[firstname]" type="text" autocomplete="off">
+                    </div>
+                    <div class="form-row">
+                        <input class="form-control" placeholder="New password confirm*" name="FreeUserRegistration[firstname]" type="text" autocomplete="off">
+                    </div>
+                    <div class="form-row">
+                        <input class="log-btn" type="submit" name="yt0" value="Create Account">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div><!-- .middle -->
+</div><!-- .wrapper -->
+
+    <footer id="footer">
+<ul>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=3">Privacy policy</a></li>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=2">Terms of use</a></li>
+    <li><a href="/index.php?r=custom_pages/view&amp;id=4">About us</a></li>
+</ul>
+</footer><!-- .footer -->
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#yw0').after("<a id=\"yw0_button\" href=\"\/index.php?r=user\/auth\/captcha&amp;refresh=1\"><i class=\"fa fa-refresh\"><\/i><\/a>");
+jQuery(document).on('click', '#yw0_button', function(){
+	jQuery.ajax({
+		url: "\/index.php?r=user\/auth\/captcha&refresh=1",
+		dataType: 'json',
+		cache: false,
+		success: function(data) {
+			jQuery('#yw0').attr('src', data['url']);
+			jQuery('body').data('captcha.hash', [data['hash1'], data['hash2']]);
+		}
+	});
+	return false;
+});
+
+});
+/*]]>*/
+</script>
+
+
+<script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>
