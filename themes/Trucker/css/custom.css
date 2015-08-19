@@ -137,9 +137,11 @@
     -moz-animation-duration: 200ms;
     animation-duration: 200ms;
 }
+/*
 .modal-dialog {
     margin-top: 10%;
 }
+*/
 .modal-dialog-small {
     width: 500px;
 }
@@ -200,10 +202,10 @@ ul.friends-list li{
 }
 
 #nav ul a.activity-link:before {
-  background-position: -237px -372px;
+    background-position: -237px -372px;
 }
 #nav ul a.download-link:before {
-  background-position: -237px -412px;
+    background-position: -237px -412px;
 }
 #nav ul a.news-link:before {
     background-position: -237px -136px;
@@ -294,4 +296,113 @@ a.btn {
 }
 #upload-file-container {
     display:block;
+}
+.resize-img-holder {
+    max-height: 300px;
+}
+
+.errorMessage{
+    color:#ff0000;
+}
+.reg-con-head {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #D2D0D0;
+}
+#create-account-form fieldset legend {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #D2D0D0;
+}
+
+#create-account-form input[type="text"],
+input[type="password"],
+#create-account-form select{
+  border: 2px solid #90a4ae;
+  padding: 10px;
+  height: 50px;
+  line-height: 25px;
+  color: #90a4ae;
+  font-size: 22px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  background: none;
+}
+
+#create-account-form label {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #D2D0D0;
+}
+#create-account-form .action-btn {
+    margin-top:20px;
+}
+
+.panel-body.lightcolor{
+    color: #D2D0D0;
+}
+
+.form-group input[type="password"]{
+    border-radius: 5px;
+}
+
+
+.chosen-container .chosen-results {
+    margin: 60px 4px 4px 0;
+}
+.chosen-container .chosen-results li.highlighted {
+  background-color: #FF0000 !important;
+}
+
+.chosen-container-single .chosen-single {
+    height: 46px;
+    border: 2px solid #90A4AE;
+    padding-top: 10px;
+    background: none;
+    box-shadow: none;
+}
+.chosen-container-single .chosen-single div {
+    padding-top: 10px;
+}
+.chosen-container-single .chosen-single span {
+    color: #90a4ae;
+    font-size: 22px;
+}
+
+#page-edit-form .bootstrap-select>.btn {
+    width: 627px;
+    padding-right: 25px;
+}
+
+.dropdown-menu {
+    color: #FFFFFF;
+}
+
+.bootstrap-datetimepicker-widget.bottom:before {
+    border-bottom-color: rgba(0, 0, 0, 0.64);
+}
+.bootstrap-datetimepicker-widget.bottom:after {
+    content:none;
+}
+
+.flash-error {
+    color:#FF0000;
+}
+.oil-table div.row:first-child{
+    background-color: #CFCFCF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.user-profile {
+    min-height: 215px;
+}
+
+#nav ul a.mass-mailing-link:before {
+  background-position: -237px -338px;
 }
