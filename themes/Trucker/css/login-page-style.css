@@ -6,3 +6,115 @@ body {
       -moz-transform: scale(0.75);
   }
 */
+body {
+    font-size: 12px;
+    min-width: 820px;
+}
+.promo-box {
+    height: 320px;
+}
+.login-holder #header .logo {
+    margin-left: -103px;
+}
+#header .logo img {
+    width: 75%;
+}
+.login-holder #header {
+    padding-top: 50px;
+}
+.promo-box strong {
+    font-size: 27px;
+}
+.promo-box h1 {
+    font-size: 45px;
+    margin: 9px 0 18px;
+}
+.promo-box p {
+    font-size: 18px;
+}
+.rate-box {
+    width: 245px;
+    padding-top: 53px;
+    background: url(../images/main-png-box_sprite_small.png) no-repeat;
+}
+.rate-box .holder {
+    background: url(../images/main-png-box_sprite_small.png) no-repeat -494px 100%;
+    padding-bottom: 19px;
+}
+.rate-box .frame {
+    background:url(../images/main-png-box_sprite_small.png) repeat-y -247px 0;
+    font-size: 13px;
+    padding: 0 18px 18px 28px;
+    min-height: 300px;
+}
+.rate-box h2 {
+    font-size: 14px;
+}
+.login-holder .login-content {
+    width: 475px;
+}
+input[type="text"], input[type="password"], select {
+    font-size:16px;
+    line-height: 20px;
+    padding: 7px;
+    height: 37px;
+}
+.reg-form .code-row .code-box {
+    height: 37px;
+}
+.reg-form .code-row .code-box img {
+    height: 100%;
+}
+.reg-form .code-row .code-box a {
+    height: 37px;
+    width: 37px;
+    line-height: 37px;
+    background: none;
+}
+.checkbox label {
+    line-height: 30px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.log-btn {
+    height: 37px;
+    line-height: 37px;
+    width: 165px;
+    font-size: 18px;
+}
+.checkbox input:not(checked) + label::before {
+    width: 28px;
+    height: 28px;
+}
+.checkbox input:checked + label::before {
+    line-height: 28px;
+    font-size: 23px;
+}
+.lightbox-list {
+    width: 490px;
+}
+.lightbox-list li {
+    margin: 0;
+    padding: 0 16px 16px 0;
+    width: 50%;
+}
+.login-holder .login-content {
+    margin-bottom: 50px;
+}
+.lightbox-list-holder {
+    padding: 0 0 10px;
+}
+.login-holder .middle {
+    width: 820px;
+}
+.log-form-box {
+    width: 266px;
+}
+.log-form-box .log-btn {
+    margin: 0 auto;
+    display: block;
+}
+
+#footer ul {
+    width: 820px;
+}
