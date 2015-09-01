@@ -1,3 +1,6 @@
+a {
+    text-decoration: none;
+}
 .weather-box {
     padding: 10px 20px 0;
 }
@@ -179,6 +182,7 @@
     height:133px;
     float:left;
     margin-right: 10px;
+    background-size: cover !important;
 }
 
 ul.friends-list li{
@@ -201,6 +205,10 @@ ul.friends-list li{
     text-decoration: none;
 }
 
+#nav {
+    height: auto;
+}
+
 #nav ul a.activity-link:before {
     background-position: -237px -372px;
 }
@@ -209,6 +217,10 @@ ul.friends-list li{
 }
 #nav ul a.news-link:before {
     background-position: -237px -136px;
+}
+
+#nav .space-general-link:before {
+    background-position: -237px -450px;
 }
 .reg-form .code-row .code-box {
     text-align: left !important;
@@ -301,8 +313,11 @@ a.btn {
     max-height: 300px;
 }
 
-.errorMessage{
+.errorMessage,
+.errorSummary,
+.flash-error{
     color:#ff0000;
+    clear:both;
 }
 .reg-con-head {
     text-align: center;
@@ -318,8 +333,10 @@ a.btn {
 }
 
 #create-account-form input[type="text"],
+#password-recovery-form input[type="text"],
 input[type="password"],
-#create-account-form select{
+#create-account-form select,
+#password-recovery-form select{
   border: 2px solid #90a4ae;
   padding: 10px;
   height: 50px;
@@ -334,7 +351,8 @@ input[type="password"],
   background: none;
 }
 
-#create-account-form label {
+#create-account-form label,
+#password-recovery-form label {
     text-transform: uppercase;
     font-size: 12px;
     color: #D2D0D0;
@@ -390,9 +408,7 @@ input[type="password"],
     content:none;
 }
 
-.flash-error {
-    color:#FF0000;
-}
+
 .oil-table div.row:first-child{
     background-color: #CFCFCF;
     font-weight: bold;
@@ -405,4 +421,72 @@ input[type="password"],
 
 #nav ul a.mass-mailing-link:before {
   background-position: -237px -338px;
+}
+
+#footer {
+     margin: 0;
+}
+
+.login-holder .login-content {
+    margin: 0 0 50px;
+}
+.login-holder  .panel-default {
+    margin-bottom: 50px !important;
+}
+.middle {
+    padding: 0 0 20px;
+}
+#content.tcols {
+    padding: 3px 0 0 246px;
+}
+
+#content.tcols .decor-heading {
+    background-position: 0 -725px;
+}
+#password-recovery-form a {
+    color:#F1F1F1;
+}
+#password-recovery-form .form-group a{
+    display: block;
+}
+.space-fa-cogs:before {
+    content: '<i class="fa fa-cogs"></i>';
+}
+.group-invite-item {
+    display: inline-block;
+    text-align: center;
+    margin:5px;
+}
+.group-invites-panel {
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    padding:10px;
+    text-align: center;
+}
+.del-message-link {
+    float:right;
+    opacity: 0.2;
+    font-size: 20px;
+}
+.messhover:hover .del-message-link {
+    opacity: 1;
+}
+.cr-rates {
+    width: 150px;
+    margin: 0 auto;
+}
+.cr-rate {
+    margin: 7px 0;
+}
+.cr-rate img {
+    width: 80px;
+    vertical-align: top;
+    float:left;
+}
+#rval {
+    color:#5A5656;
+}
+.cr-rate-val {
+    line-height: 21px;
+    font-size: 16px;
 }

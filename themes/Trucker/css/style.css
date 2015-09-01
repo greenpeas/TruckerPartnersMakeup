@@ -393,7 +393,6 @@ em {
 
 input[type="text"],
 input[type="password"] {
-    font:18px "Scada", Arial, Helvetica, sans-serif;
   border: 2px solid #90a4ae;
   padding: 10px;
   height: 50px;
@@ -463,15 +462,13 @@ input[type="checkbox"] {
   background: #000;
   color: #37474f;
   font-weight: bold;
+  font-size: 24px;
   line-height: 49px;
   text-transform: uppercase;
   text-align: center;
   background: url(../images/sprite.png) no-repeat;
   height: 49px;
   width: 220px;
-    font:bold 24px "Scada", Arial, Helvetica, sans-serif;
-    text-shadow: 2px 0 4px rgba(43, 43, 43, 0.2);
-    padding: 0;
 }
 .log-btn:hover {
   background-position: 0 -49px;
@@ -486,7 +483,7 @@ input[type="checkbox"] {
 }
 
 .login-holder .middle {
-  padding: 18px 0 80px;
+  padding: 18px 0 0;
   width: 950px;
   margin: 0 auto;
 }
@@ -948,13 +945,14 @@ h3 {
 }
 
 .status {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
 }
-.status .off {
-  color: #aeb8b8;
+.status.off {
+  color: #339CDC;
 }
 .status.on {
-  color: #ffaf00;
+  color: #25B757;
 }
 
 .dark-link {
@@ -1130,12 +1128,13 @@ h3 {
 }
 .user-profile .user-info dl {
   overflow: hidden;
-  text-transform: uppercase;
+  
 }
 .user-profile .user-info dl dt {
   display: block;
   color: #546e7a;
   margin: 0 0 -2px;
+  text-transform: uppercase;
 }
 .user-profile .user-info dl dd {
   display: block;
@@ -1199,7 +1198,7 @@ h3 {
   display: inline-block;
   color: #fff;
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 12px;
   padding: 0 3px;
 }
 .status.public {
@@ -4753,13 +4752,14 @@ select {
     box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.4);
     padding: 23px 16px 50px 30px;
 }
+
 .form-group input[type="text"], .form-group select, .form-group textarea {
     width: 100%;
     background: #fff;
     color: #b0bec5;
     font: 14px "Scada";
-    border: 1px solid #90a4ae;
-    height: 32px;
+    border: 2px solid #90a4ae;
+    height: 50px;
     padding: 5px 12px;
     line-height: 22px;
     -moz-border-radius: 5px;
@@ -4769,6 +4769,7 @@ select {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .form-group input[type="text"]:focus, .form-group input[type="text"]:active,
 .form-group select:focus, .form-group select:active,
 .form-group textarea:focus, .form-group textarea:active {
@@ -5019,24 +5020,4 @@ span.required {
 }
 .GalleryEditor .checkbox-holder input {
     margin-top: 10px;
-}
-.reg-form-box {
-    width: 460px;
-    margin: 0 auto;
-    padding: 50px 0 70px;
-    text-align: center;
-    color: #fff;
-    font-size: 18px;
-    min-height: 180px;
-}
-.reg-form-box h2 {
-    text-align: center;
-    margin: 0 0 30px;
-    text-transform: uppercase;
-    font-size: 22px;
-}
-.reg-form-box .log-btn {
-    margin: 45px auto 0;
-    float: none;
-    display: block;
 }
